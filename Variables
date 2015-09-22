@@ -1,0 +1,32 @@
+Module Module1
+
+    Sub Main()
+    
+        'Dim x As Integer
+        'Dim y As Integer
+        
+        'x = 7
+        'y = x + 3
+        
+        'Console.WriteLine(y)
+        
+        'Dim myFirstName As String
+        
+        'Dim myFirstname As String
+        'myFirstName = "Bob"
+        
+        'Dim myFirstName As String = "Bob"
+        
+        Dim myFirstName = "Bob"
+        
+        
+        Console.WrieLine(myFirstName)
+        
+        
+        
+        Console.ReadLine()
+        
+        
+    End Sub
+    
+End Module
