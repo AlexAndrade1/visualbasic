@@ -17,7 +17,9 @@ Module Module1
          '    .Color = "Silver"
          'End With
          
-         Cosoel.WriteLine("{0} - {1} - {2}", myNewCar.Make, myNewCar.Model, myNewCar.Year.ToString())
+         'Console.WriteLine("{0} - {1} - {2}", myNewCar.Make, myNewCar.Model, myNewCar.Year.ToString())
+         
+         Console.WriteLine(determineMarketValue(myNewCar))
          
          Console.ReadLine()
          
@@ -25,7 +27,9 @@ Module Module1
      End Sub
      
      Function determineMarketValue(ByVal myCar As Car) As Double
+         ' Super secret formula
          
+         Return 100.0
      End Function
      
      
