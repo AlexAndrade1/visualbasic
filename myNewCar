@@ -1,0 +1,34 @@
+Module Module1 
+
+    Sub Main()
+    
+         'Dim myNewCar As Car = New Car()
+         Dim myNewCar As New Car()
+         
+         myNewCar.Make = "Oldsmobile"
+         myNewCar.Model = "Cutlas Supreme"
+         myNewCar.Year = 1986
+         myNewCar.Color = "Silver"
+         
+         'With myNewCar
+         '    .Make = "Olds"
+         '    .Model = "Cutlass"
+         '    .Year = 1986
+         '    .Color = "Silver"
+         'End With
+         
+         Cosoel.WriteLine("{0} - {1} - {2}", myNewCar.Make, myNewCar.Model, myNewCar.Year.ToString())
+         
+         Console.ReadLine()
+         
+      
+     End Sub
+     
+     Function determineMarketValue(ByVal myCar As Car) As Double
+         
+     End Function
+     
+     
+     
+     
+     End Module
