@@ -1,0 +1,30 @@
+Public Class Car
+
+    Public Make As String
+    Public Model As String
+    Public Year As Integer
+    Public Color As String
+    Public Amount As Double 
+    Public Surcharge As Double
+    
+    Public Sub New()
+    
+    End Sub
+    
+    Public Sub New(ByVal _make As String, ByVal  _year As Integer, ByVal amount As Double)
+        Me.Make = _make
+        Me.Year = _year
+        Me.Amount = _Amount 
+        Me.Surcharge = _amount * 1.025
+    End Sub
+    
+    
+    Public Function determineMarketValue() As Double
+        ' Super Secret formula 
+        
+        Return 100.0
+        
+    End Function
+    
+    
+End Class
